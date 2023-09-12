@@ -64,5 +64,18 @@ int _isalpha(int c);
 
  int print_sign(int n);
 
+
+ /**
+ * _abs - returns the absolute value
+ *
+ * @n: the number to get the absolute value to it
+ *
+ * Return: 0 or positive number
+ */
+
+int _abs(int); 
+
+
+
 #endif
 
