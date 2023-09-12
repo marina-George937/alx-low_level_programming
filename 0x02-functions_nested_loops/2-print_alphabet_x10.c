@@ -4,6 +4,11 @@
  *
  * print_alphabet_x10 - prints alphabet 10 times
  *
+ *
+ *
+ * Return: nothing
+ *
+ *
  */
 void print_alphabet_x10(void)
 {
@@ -17,7 +22,6 @@ void print_alphabet_x10(void)
 			_putchar(a);
 			a++;
 		}
-		
 		_putchar('\n');
 		i++;
 		a = 'a';
