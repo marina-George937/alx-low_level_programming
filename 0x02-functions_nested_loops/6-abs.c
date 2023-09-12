@@ -6,6 +6,7 @@
  * @n: the number to get the absolute value to it 
  *
  * Return: 0 or positive number
+ *
  */
 
 int _abs(int n)
@@ -14,6 +15,4 @@ int _abs(int n)
 		return (n);
 	else
 		return (n*-1);
-
-
 }
