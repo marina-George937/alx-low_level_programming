@@ -88,7 +88,7 @@ int print_last_digit(int n);
  * jack_bauer - main thing
  *
  */
-void jack_bauer(void)
+void jack_bauer(void);
 
 
 
