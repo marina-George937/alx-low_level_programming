@@ -42,6 +42,18 @@ void print_alphabet_x10(void);
 
 int _islower(int c);
 
+/**
+ *
+ * isalpha - checks is c is a letter
+ *
+ *@c: input to check
+ *
+ * Return: 0 or 1
+ *
+ */
+
+int _isalpha(int c);
+
 
 
 #endif
