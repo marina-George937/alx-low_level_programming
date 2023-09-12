@@ -104,7 +104,7 @@ void times_table(void);
  *
  * Return: sum of both integers
  */
-int add(int a, int b)
+int add(int a, int b);
 
 
 
