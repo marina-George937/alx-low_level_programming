@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
+ * _abs - main function
  *
- * _abs - returns the absolute value 
- *
- * @n: the number to get the absolute value to it 
- *
- * Return: 0 or positive number
+ * @n: integer to make absolute
+ * Return: int or int times negative
  *
  */
 
