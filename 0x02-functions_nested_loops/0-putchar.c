@@ -4,7 +4,7 @@
  * main - entry point
  *
  *
- * return : always returns 0
+ * Return: always returns 0
  *
  */
 
@@ -15,10 +15,10 @@ int main(void)
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
-        _putchar('c');
-        _putchar('h');
-        _putchar('a');
-        _putchar('r');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 
