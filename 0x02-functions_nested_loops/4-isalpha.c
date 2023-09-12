@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *
- * isalpha - checks is c is a letter
+ * _isalpha - checks is c is a letter
  *
  *@c: input to check
  *
@@ -9,7 +9,7 @@
  *
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' &&  c >= 'Z'))
 		return (1);
