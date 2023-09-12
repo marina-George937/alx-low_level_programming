@@ -13,7 +13,7 @@
 	 char a = 'a';
 	 while (a <= 'z')
 		 _putchar(a);
-	 _putchar('\n';)
+	 _putchar('\n');
 
 
  }
