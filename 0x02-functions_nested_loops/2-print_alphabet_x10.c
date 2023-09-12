@@ -10,6 +10,7 @@
  *
  *
  */
+
 void print_alphabet_x10(void)
 {
 	char a = 'a';
@@ -22,6 +23,7 @@ void print_alphabet_x10(void)
 			_putchar(a);
 			a++;
 		}
+
 		_putchar('\n');
 		i++;
 		a = 'a';
