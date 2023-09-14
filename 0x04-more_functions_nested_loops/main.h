@@ -65,6 +65,13 @@ void print_line(int n);
  */
 
 void print_diagonal(int n);
+
+/**
+ * print_square - print a square of #'s given size
+ * @size: size to draw
+ */
+
+void print_square(int size);
 int _putchar(char c);
 
 
