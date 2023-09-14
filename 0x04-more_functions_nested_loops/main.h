@@ -52,6 +52,13 @@ void more_numbers(void);
 /**
  * _putchar(char c)
  */
+
+/**
+ * print_line - print the character "_" n times to draw a line
+ * @n: number of characters to draw
+ */
+
+void print_line(int n);
 int _putchar(char c);
 
 
