@@ -29,6 +29,14 @@ int mul(int a, int b);
 
 int _isupper(int c);
 
+/**
+ * print_numbers - print 0 to 9
+ */
+
+
+
+void print_numbers(void)
+
 
 
 #endif
