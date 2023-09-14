@@ -9,6 +9,14 @@
 
 int _isdigit(int c);
 
+/**
+ * mul - multiplies two integers
+ * @a: one integer
+ * @b: second integer
+ * Return: product of a and b
+ */
+
+int mul(int a, int b)
 
 
 
