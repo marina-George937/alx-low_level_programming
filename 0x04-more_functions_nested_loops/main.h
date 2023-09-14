@@ -16,7 +16,7 @@ int _isdigit(int c);
  * Return: product of a and b
  */
 
-int mul(int a, int b)
+int mul(int a, int b);
 
 
 
