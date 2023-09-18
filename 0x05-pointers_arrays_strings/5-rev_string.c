@@ -28,6 +28,6 @@ void rev_string(char *s)
 		i--;
 	}
 
-	s[j] = '\0';
+
 
 }
