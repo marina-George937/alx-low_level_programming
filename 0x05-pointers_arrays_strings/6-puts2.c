@@ -1,9 +1,10 @@
 #include "main.h"
+ 
 /**
- * puts2 - print characters of string
- *
- * @str: string
- */ 
+ * _strlen - returns the length of a string
+ * @s: string
+ * Return: length
+ */
 int _strlen(char *s)
 {
 	int len = 0;
@@ -19,6 +20,11 @@ int _strlen(char *s)
 
 
 
+/**
+ * puts2 - print characters of string
+ *
+ * @str: string
+ */
 
 
 void puts2(char *str)
