@@ -40,6 +40,17 @@ int _putchar(char c);
 void _puts(char *str);
 
 
+/**
+ * print_rev - print str in rev order
+ *
+ * @s: strint to rev
+ */
+
+
+
+void print_rev(char *s);
+
+
 
 
 
