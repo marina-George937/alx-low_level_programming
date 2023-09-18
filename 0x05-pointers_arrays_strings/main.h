@@ -64,6 +64,15 @@ void print_rev(char *s);
 
 void rev_string(char *s);
 
+/**
+ * puts2 - print characters of string
+ *
+ * @str: string
+ */
+
+
+void puts2(char *str);
+
 
 
 
