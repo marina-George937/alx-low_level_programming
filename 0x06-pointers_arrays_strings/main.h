@@ -28,5 +28,16 @@ char *_strcat(char *dest, char *src);
  */
 char *_strncat(char *dest, char *src, int n);
 
+/**
+ * _strncpy - string copy
+ *
+ * @dest: pointer to string
+ * @src: pointer to string
+ *
+ * Return: pointer to char
+ */
+
+
+char *_strncpy(char *dest, char *src, int n);
 
 #endif
