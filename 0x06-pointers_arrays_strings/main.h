@@ -56,4 +56,10 @@ int _strcmp(char *s1, char *s2);
  * Return: return value of upper
  */
 char *string_toupper(char *s);
+/**
+ * cap_string - capitalizes the string
+ * @s: string
+ * Return: the string capitalized
+ */
+char *cap_string(char *s);
 #endif
