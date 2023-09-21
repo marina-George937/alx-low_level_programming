@@ -5,7 +5,7 @@
  *
  * @dest: pointer to string
  * @src: pointer to string
- *
+ * @n: int n
  * Return: pointer to char
  */
 
@@ -23,7 +23,7 @@ char *_strncpy(char *dest, char *src, int n)
         {
                 dest[i] = '\0';
         }
-	
+
 	return (dest);
 
 }
