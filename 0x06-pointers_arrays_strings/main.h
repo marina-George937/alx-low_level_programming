@@ -50,4 +50,10 @@ char *_strncpy(char *dest, char *src, int n);
  */
 int _strcmp(char *s1, char *s2);
 
+/**
+ * string_toupper - uppers a lower
+ * @s: character to make upper
+ * Return: return value of upper
+ */
+char *string_toupper(char *s);
 #endif
