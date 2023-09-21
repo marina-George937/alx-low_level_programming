@@ -70,4 +70,11 @@ char *cap_string(char *s);
  * Return: char value
  */
 char *leet(char *s);
+/**
+ * rot13 - encrypts code
+ * @s: string to encrypt
+ * Return: char value
+ */
+char *rot13(char *s);
+
 #endif
