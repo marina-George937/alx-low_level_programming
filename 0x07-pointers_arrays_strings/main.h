@@ -65,4 +65,18 @@ char *_strpbrk(char *s, char *accept);
  */
 char *_strstr(char *haystack, char *needle);
 
+/**
+ * print_chessboard - board to print
+ * @a: prints things
+ * Return: returns crap
+ */
+void print_chessboard(char (*a)[8]);
+
+/**
+ * print_diagsums - prints diagonal summaries
+ * @a: array to use
+ * @size: size of diagonal
+ */
+void print_diagsums(int *a, int size);
+
 #endif
