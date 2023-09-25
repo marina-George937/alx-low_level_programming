@@ -55,4 +55,14 @@ unsigned int _strspn(char *s, char *accept);
  * Return: returns new value
  */
 char *_strpbrk(char *s, char *accept);
+
+
+/**
+ * _strstr - locates substring
+ * @haystack: string to locte
+ * @needle: substring to locate
+ * Return: returns string at starting sub or null
+ */
+char *_strstr(char *haystack, char *needle);
+
 #endif
