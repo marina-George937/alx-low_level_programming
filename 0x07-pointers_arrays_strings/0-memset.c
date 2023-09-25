@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- * _memset: set memory
- *
- * @s: pointer to vhar
- * @b: char
- * @n: int number
- *
- * Return: pointer to char
+ * _memset - sets memory to array
+ * @s: array to set
+ * @b: value to set it as
+ * @n: n amount of times
+ * Return: char value of s
  */
-
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i = 0;
+	unsigned int i = 0;
 
 	while (i < n)
 	{
