@@ -49,6 +49,13 @@ int _pow_recursion(int x, int y);
  * Return: returns int of squareroot
  */
 int _sqrt_recursion(int n);
+/**
+ * helper - does it for me
+ * @i: helper int
+ * @n: integer I'm testing
+ * Return: value
+ */
+int helper(int i, int n);
 
 
 
