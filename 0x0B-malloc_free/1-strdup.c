@@ -8,7 +8,7 @@
  */
 char *_strdup(char *str)
 {
-	int c = 1;
+	int c = 0;
 	char *t;
 
 	if (str == NULL)
@@ -17,8 +17,8 @@ char *_strdup(char *str)
 	while (str[c] != '\0')
 		c++;
 
-	t = malloc(sizeof(char) * c);
-
+	t = malloc(sizeof(char) * c + 1);
+	*t = *str;
 	if (t == NULL)
 		return (NULL);
 	return (t);
