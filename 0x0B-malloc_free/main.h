@@ -10,5 +10,12 @@
  */
 char *create_array(unsigned int size, char c);
 
+/**
+ * _strdup - duplicates string
+ * @str: string to copy
+ * Return: char to newly duplicated string
+ */
+char *_strdup(char *str);
+
 
 #endif
