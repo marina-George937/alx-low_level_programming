@@ -8,6 +8,7 @@
  */
 char *_strdup(char *str)
 {
+	int i = 0;
 	int c = 0;
 	char *t;
 
@@ -18,7 +19,12 @@ char *_strdup(char *str)
 		c++;
 
 	t = malloc(sizeof(char) * c + 1);
-	*t = *str;
+	while (i <= c)
+	{
+		t[i] = str[i];
+		i++;
+	}
+	t[i] = '\0';
 	if (t == NULL)
 		return (NULL);
 	return (t);
