@@ -25,7 +25,18 @@ char *_strdup(char *str);
  * @s: array you are assigning
  * Return: char value
  */
-char **helper(int word, int len, char *str, char **s);
+
+
+/**
+ * str_concat - Concatenates two strings.
+ * @s1: The string to be concatenated upon.
+ * @s2: The string to be concatenated to s1.
+ *
+ * Return: If concatenation fails - NULL.
+ *         Otherwise - a pointer the newly-allocated space in memory
+ *                     containing the concatenated strings.
+ */
+char *str_concat(char *s1, char *s2);
 
 
 #endif
