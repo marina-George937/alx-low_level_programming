@@ -1,11 +1,15 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
-char *f = __FILE__;
-int i = 0;
-while (f[i] != '\0')
+int main(void)
 {
-	_putchar(f[i]);
-	i++;
+	int i = 0;
+	char *f = __FILE__;
+	while (f[i] != '\0')
+	{
+		_putchar(f[i]);
+		i++;
+	}
+	_putchar('\n');
 }
