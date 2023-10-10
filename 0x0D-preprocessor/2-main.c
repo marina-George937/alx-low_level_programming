@@ -1,16 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
+
+/**
+ * main - main file returns file name
+ * Return: returns 0 always
+ */
 int main(void)
 {
-	int i = 0;
-	char *f = __FILE__;
-	while (f[i] != '\0')
-	{
-		_putchar(f[i]);
-		i++;
-	}
-	_putchar('\n');
+	printf("%s\n", __FILE__);
 	return (0);
 }
